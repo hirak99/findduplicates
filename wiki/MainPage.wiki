@@ -1,0 +1,14 @@
+#summary Main page
+
+= Introduction =
+
+Find duplicates is a tool to search and erase duplicate files in windows.
+
+I used VC++ and MFC to build it, unfortunately now I do not have access to registered version VC++ any more. The free version does not come with MFC support, so I'll probably not be editing the code in the near future. Hence I'm setting it open for enthusiasts who might want to add new features.
+
+= Todo =
+
+Here are the todo items for the future:
+  * Add an option to create symbolic links instead of deleting the files altogether. Symbolic links are supported in Windows XP and Vista.
+
+In case you want to modify the codes, please let the project managers know. Please send a text detailing your modification along with the patch, your patch will be uploaded if approved.
