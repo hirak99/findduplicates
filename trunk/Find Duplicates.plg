@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Find Duplicates - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Find Duplicates.res" /d "NDEBUG" /d "_AFXDLL" "C:\Arnab\Progs\VC++\Find Duplicates\Find Duplicates.rc"" 
+Creating temporary file "C:\DOCUME~1\Arnab\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Find Duplicates.pdb" /machine:I386 /out:"Release/Find Duplicates.exe" 
+".\Release\Find Duplicates.obj"
+".\Release\Find DuplicatesDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\Find Duplicates.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Arnab\LOCALS~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+Creating temporary file "C:\DOCUME~1\Arnab\LOCALS~1\Temp\RSP1C.bat" with contents
+[
+@echo off
+echo Copying to Uninstaller directory...
+copy /y ".\Release\Find Duplicates.exe" C:\Arnab\PROGS\BCB\Uninstaller\*.*
+]
+Creating command line "C:\DOCUME~1\Arnab\LOCALS~1\Temp\RSP1C.bat"
+
+Copying to Uninstaller directory...
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Find Duplicates.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
