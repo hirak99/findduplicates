@@ -13,6 +13,11 @@ I will aim for a  complete migration and build a working copy within a month, i.
  * Also certain features were built after I designed the initial interface, leading to  the idea of 'shift' clicking some of the buttons to do an alternative task. These tasks should be spelled out clearly in the UI instead of being hidden away behind documentation.
  * The interface has to be intuitive to use, the features should be easily accessible.
 
+== Duplicate File List ==
+ * Main list box will have a column showing action to be taken - "Recycle", "Unlink"
+ * Duplicate files will be grouped by color
+ * Buttons for helping selection: "Deselect all", "Select duplicates", "Select by wildcard...", "Select folder..."
+
 = Features =
 
 These are combination of features from the old version and some new ideas, which must be supported in the .Net implementation.
