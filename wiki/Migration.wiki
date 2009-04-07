@@ -16,7 +16,7 @@ I will aim for a  complete migration and build a working copy within a month, i.
 == Duplicate File List ==
  * Main list box will have a column showing action to be taken - "Recycle", "Unlink"
  * Duplicate files will be grouped by color
- * Buttons for helping selection: "Deselect all", "Select duplicates", "Select by wildcard...", "Select folder..."
+ * Context menu for helping selection: "Deselect all", "Select duplicates", "Select by wildcard...", "Select folder..."
 
 = Features =
 
