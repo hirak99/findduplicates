@@ -21,6 +21,10 @@ I will aim for a  complete migration and build a working copy within a month, i.
  * Main list box will have a column showing action to be taken - "Recycle", "Unlink"
  * Duplicate files will be grouped by color
  * Context menu for helping selection: "Deselect all", "Select duplicates", "Select by wildcard...", "Select folder..."
+ * Context menu will have "Set action for selected" -> "Recycle", "Unlink"
+ * "Delete" button replaced with "Go"
+ * Remove "What If" button
+ * Display "Current actions will free up nnnn mb" or "Current actions will require nnnn mb" in status bar
 
 = Features =
 
