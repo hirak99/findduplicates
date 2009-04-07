@@ -3,9 +3,9 @@
 
 = Migration to .Net =
 
-Original programming environment used to code this was VC++ with MFC. It is however not anymore possible to provide support for the software, as the I do not own a personal copy of the full Visual Studio environment. In an effort to support the program with newer features, therefore, it seems a remake is necessary through one of the freely available coding alternatives. In my own opinion, C# is more than fit for this job. I will aim for a  complete migration and build a working copy within a month, i.e. by 2009 March end.
+Original programming environment used to code this was VC++ with MFC. It is however not anymore possible to provide support for the software, as the I do not own a personal copy of the full Visual Studio environment. In an effort to support the program with newer features, therefore, it seems a remake is necessary through one of the freely available coding alternatives. In my own opinion, C# is more than fit for this job.
 
-Further improvements may be added to it afterwards.
+I will aim for a  complete migration and build a working copy within a month, i.e. by 2009 March end. Further improvements may be added to it afterwards.
 
 = Interface design =
 
