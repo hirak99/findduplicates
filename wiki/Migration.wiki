@@ -1,4 +1,4 @@
-#summary New version through .Net
+#summary Wishlist/thinking aloud for the new version
 #labels Phase-Requirements
 
 = Migration to .Net =
@@ -20,3 +20,4 @@ These are combination of features from the old version and some new ideas, which
  * Options - "Include subfolders", "Include zero length files", "Look for hidden files"
  * Compare all files, compare across folders
  * Manage symbolic links - "Create symbolic links" instead of deleting, "Duplicate & unlink symbolic links"
+ * Advanced selection options for marking files to be deleted, based on regular expressions or wild cards
