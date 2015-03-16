@@ -1,0 +1,33 @@
+# Migration to .Net #
+
+Original programming environment used to code this was VC++ with MFC. It is however not anymore possible to provide support for the software, as the I do not own a personal copy of the full Visual Studio environment. In an effort to support the program with newer features, therefore, it seems a remake is necessary through one of the freely available coding alternatives. In my own opinion, C# is more than fit for this job.
+
+I will aim for a  complete migration and build a working copy within a month, i.e. by 2009 March end. Further improvements may be added to it afterwards.
+
+# Interface design #
+
+  * The current interface works well. However, it needs to be modified to support symbolic links.
+  * Also certain features were built after I designed the initial interface, leading to  the idea of 'shift' clicking some of the buttons to do an alternative task. These tasks should be spelled out clearly in the UI instead of being hidden away behind documentation.
+  * The interface has to be intuitive to use, the features should be easily accessible.
+
+## Folder List ##
+  * Same as old, accepts drag/drop of folders
+  * Buttons "Compare all", "Selected vs. unselected"
+
+## Duplicate File List ##
+  * Main list box will have a column showing action to be taken - "Recycle", "Unlink"
+  * Duplicate files will be grouped by color
+  * Context menu for helping selection: "Deselect all", "Select duplicates", "Select by wildcard...", "Select folder..."
+  * Context menu will have "Set action for selected" -> "Recycle", "Unlink"
+  * "Delete" button replaced with "Go"
+  * Remove "What If" button
+  * Display "Current actions will free up nnnn mb" or "Current actions will require nnnn mb" in status bar
+
+# Features #
+
+These are combination of features from the old version and some new ideas, which must be supported in the .Net implementation.
+
+  * Options - "Include subfolders", "Include zero length files", "Look for hidden files"
+  * Compare all files, compare across folders
+  * Manage symbolic links - "Create symbolic links" instead of deleting, "Duplicate & unlink symbolic links"
+  * Advanced selection options for marking files to be deleted, based on regular expressions or wild cards

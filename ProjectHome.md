@@ -1,0 +1,1 @@
+Finds duplicate files for Windows, and allows the user to estimate space taken by them, and optionally delete the ones which the user chooses.
