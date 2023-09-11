@@ -2,7 +2,8 @@
 //
 
 #include "stdafx.h"
-#include <fstream.h>
+#include <fstream>
+
 #include "Find Duplicates.h"
 #include "Find DuplicatesDlg.h"
 
@@ -1172,7 +1173,7 @@ void CFindDuplicatesDlg::CompareFiles2(CFilesPtrList &Files1,CFilesPtrList &File
 					FileInfo *fi1=Files1.GetNext(pos1);
 					AddFileToList(fi1,nGroups);
 				}
-				for (i=0; i<nSame2; i++)
+				for (int i=0; i<nSame2; i++)
 				{
 					FileInfo *fi2=Files2.GetNext(pos2);
 					AddFileToList(fi2,nGroups);
@@ -1232,7 +1233,7 @@ int CFindDuplicatesDlg::ClearErased()
 	GetDlgItem(IDC_WHAT_IF)->SetWindowText("&What If");
 	n=m_lstResults.GetItemCount();
 	int NewGrp=-1,PrevGrp=-1;
-	for (i=0; i<n; i++)
+	for (int i=0; i<n; i++)
 	{
 		int Grp=m_lstResults.GetItemData(i);
 		if (Grp!=PrevGrp)
@@ -1372,7 +1373,7 @@ void CFindDuplicatesDlg::OnExportHTML()
 	if (savedlg.DoModal()==IDOK)
 	{
 		SetCursor(LoadCursor(NULL,IDC_WAIT));
-		ofstream file(savedlg.GetFileName());
+		std::ofstream file(savedlg.GetFileName());
 		file<<"<!doctype html public \"-//W3C//DTD HTML 4.0 Transitional//EN\">\n"
 			"<html>\n"
 			"<head>\n"
@@ -1452,7 +1453,7 @@ void CFindDuplicatesDlg::MoveOrDeleteTo(bool bMove)
 		}
 		CString ToDelete;
 		CArray<CString,CString> Folders;
-		for (i=0; i<n; i++)
+		for (int i=0; i<n; i++)
 			if (m_lstResults.GetCheck(i))
 			{
 				nSelCount++;
@@ -1480,7 +1481,7 @@ void CFindDuplicatesDlg::MoveOrDeleteTo(bool bMove)
 			temp.Format("Do you want to move the selected files to \"%s\"?",shf.pTo);
 			if(MessageBox(temp,"Confirmation",MB_YESNO|MB_ICONQUESTION)!=IDYES) return;
 		}
-		for (i=0; i<n; i++)
+		for (int i=0; i<n; i++)
 			if (Buffer[i]=='|') Buffer[i]=0;
 		shf.hwnd=m_hWnd;
 		shf.wFunc=bMove?FO_MOVE:FO_DELETE;
